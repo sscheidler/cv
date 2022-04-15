@@ -1,16 +1,78 @@
-body{
-  background-color: #00B4D8;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-h1{
+
+h1 {
   color: #66BFBF;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
 }
-h3{
+
+h2 {
   color: #66BFBF;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+.top-container {
+  background-color: #9ADCFF;
+  padding-top: 100px;
+  position: relative;
+}
+
+.face-image{
+  width:100px;
+  height: 100px;
+}
+.computer-image{
+  width: 25%;
+  height: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+  .report-image{
+    width: 25%;
+    height: 25%;
+    float: right;
+    padding-left: 30px;
+
+  }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.programmer-name{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
